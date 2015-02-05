@@ -10,14 +10,14 @@
 	<string>MultiSchemeTravisNavigation</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7E3DB588F2832BED7E40FC4175E7465C0D813119</key>
+		<key>52D28AF32E54EE55C055340F0B36969B8402ACE3</key>
 		<string>https://github.com/ajaysharmav2/TravisNavigation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MultiSchemeTravisNavigation.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7E3DB588F2832BED7E40FC4175E7465C0D813119</key>
+		<key>52D28AF32E54EE55C055340F0B36969B8402ACE3</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7E3DB588F2832BED7E40FC4175E7465C0D813119</string>
+	<string>52D28AF32E54EE55C055340F0B36969B8402ACE3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7E3DB588F2832BED7E40FC4175E7465C0D813119</string>
+			<string>52D28AF32E54EE55C055340F0B36969B8402ACE3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MultiSchemeTravisNavigation</string>
 		</dict>

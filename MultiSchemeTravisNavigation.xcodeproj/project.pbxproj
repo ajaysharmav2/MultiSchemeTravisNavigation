@@ -74,9 +74,9 @@
 /* Begin PBXFileReference section */
 		6200860071DB77891D11E04C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		860ACD391A8208EA00F18C6F /* MultiSchemeTravisNavigation copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MultiSchemeTravisNavigation copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860ACD3A1A8208EB00F18C6F /* MultiSchemeTravisNavigation copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiSchemeTravisNavigation copy-Info.plist"; path = "/Users/ajaysharma/POC-Demos/MultiSchemeTravisNavigation/MultiSchemeTravisNavigation copy-Info.plist"; sourceTree = "<absolute>"; };
+		860ACD3A1A8208EB00F18C6F /* MultiSchemeTravisNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MultiSchemeTravisNavigation-Info.plist"; path = "/Users/ajaysharma/POC-Demos/MultiSchemeTravisNavigation/MultiSchemeTravisNavigation-Info.plist"; sourceTree = "<absolute>"; };
 		860ACD551A8208FA00F18C6F /* QA-MultiSchemeTravisNavigation copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QA-MultiSchemeTravisNavigation copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		860ACD561A8208FA00F18C6F /* QA-MultiSchemeTravisNavigation copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QA-MultiSchemeTravisNavigation copy-Info.plist"; path = "/Users/ajaysharma/POC-Demos/MultiSchemeTravisNavigation/QA-MultiSchemeTravisNavigation copy-Info.plist"; sourceTree = "<absolute>"; };
+		860ACD561A8208FA00F18C6F /* QA-MultiSchemeTravisNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "QA-MultiSchemeTravisNavigation-Info.plist"; path = "/Users/ajaysharma/POC-Demos/MultiSchemeTravisNavigation/QA-MultiSchemeTravisNavigation-Info.plist"; sourceTree = "<absolute>"; };
 		868A12471A396C3A008CB924 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		868A12491A396C40008CB924 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		868A124B1A396C47008CB924 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -181,8 +181,8 @@
 				86B130D41A388445007AC2F4 /* Products */,
 				FE7E1AD43B2D7F153EA7E9B3 /* Pods */,
 				67BC5294054F749C5F7B1D44 /* Frameworks */,
-				860ACD3A1A8208EB00F18C6F /* MultiSchemeTravisNavigation copy-Info.plist */,
-				860ACD561A8208FA00F18C6F /* QA-MultiSchemeTravisNavigation copy-Info.plist */,
+				860ACD3A1A8208EB00F18C6F /* MultiSchemeTravisNavigation-Info.plist */,
+				860ACD561A8208FA00F18C6F /* QA-MultiSchemeTravisNavigation-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};

@@ -37,6 +37,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self configureView];
+    
+    UIAlertView *alertv = [[UIAlertView alloc]initWithTitle:@"Test Alert" message:@"Hey.. .thats a debug build" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alertv show];
+
 }
 
 - (void)didReceiveMemoryWarning {
