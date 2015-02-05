@@ -14,11 +14,11 @@ before_script:
 - ./scripts/add-key.sh
 - ./scripts/update-bundle.sh
 script:
-- xcodebuild test -workspace AppNavigation.xcworkspace -scheme AppNavigation -sdk
+- xcodebuild test -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk
   iphonesimulator ONLY_ACTIVE_ARCH=NO
-- xcodebuild -workspace AppNavigation.xcworkspace -scheme AppNavigation -sdk iphonesimulator
+- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk iphonesimulator
   ONLY_ACTIVE_ARCH=NO
-- xcodebuild -workspace AppNavigation.xcworkspace -scheme AppNavigation -sdk iphoneos
+- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk iphoneos
   -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
 after_success:
 - ./scripts/sign-and-upload.sh
@@ -26,7 +26,7 @@ after_script:
 - ./scripts/remove-key.sh
 env:
   global:
-  - APP_NAME="AppNavigation"
+  - APP_NAME="QAMultiSchemeTravisNavigation"
   - 'DEVELOPER_NAME="iPhone Distribution: V2 Solutions (JTKBCAGUVC)"'
   - PROFILE_NAME="AppNavigation_Ad_Hoc"
   - secure: bJ1sFGf/q3CxKbYcVwOti+TVwokrcgJ5PVfDpgugeAEPNyweBux4cWI6YvLp1WJIO0velz9WjWwKcQLHIb+wDF9uzoT1OHeMjTsMSEYxm+pGdQmOvZHbfFFw3Jaw3KqjIefRK+SCRMgfS2uwxLNzuz7N8immstVNLIeYFZ6AUYY=
