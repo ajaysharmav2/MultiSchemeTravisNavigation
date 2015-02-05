@@ -26,7 +26,7 @@ after_script:
 - ./scripts/remove-key.sh
 env:
   global:
-  - APP_NAME="QAMultiSchemeTravisNavigation"
+  - APP_NAME="AppNavigation"
   - 'DEVELOPER_NAME="iPhone Distribution: V2 Solutions (JTKBCAGUVC)"'
   - PROFILE_NAME="AppNavigation_Ad_Hoc"
   - secure: vEHjvdPATlFJQbu7paItB5CWOpC6m+svDAGweOTu1KtUTI6gTzuJc836TZcL/bk7u4NsR5s+yPCaGlVW+tl+guSAXE4hU0rjatR9y536S6y6YoDwFdrK/yUbCi1ppI9LtflFqNvQHWmBtXeDLFZ63jFCEGlQqKquvp/D3+9DIwg=
