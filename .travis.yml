@@ -14,12 +14,12 @@ before_script:
 - ./scripts/add-key.sh
 - ./scripts/update-bundle.sh
 script:
-- xcodebuild test -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk
-  iphonesimulator ONLY_ACTIVE_ARCH=NO
-- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk iphonesimulator
-  ONLY_ACTIVE_ARCH=NO
-- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation -sdk iphoneos
-  -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+- xcodebuild test -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation
+  -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation
+  -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+- xcodebuild -workspace MultiSchemeTravisNavigation.xcworkspace -scheme QA-MultiSchemeTravisNavigation
+  -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
 after_success:
 - ./scripts/sign-and-upload.sh
 after_script:
@@ -29,7 +29,5 @@ env:
   - APP_NAME="QAMultiSchemeTravisNavigation"
   - 'DEVELOPER_NAME="iPhone Distribution: V2 Solutions (JTKBCAGUVC)"'
   - PROFILE_NAME="AppNavigation_Ad_Hoc"
-  - secure: bJ1sFGf/q3CxKbYcVwOti+TVwokrcgJ5PVfDpgugeAEPNyweBux4cWI6YvLp1WJIO0velz9WjWwKcQLHIb+wDF9uzoT1OHeMjTsMSEYxm+pGdQmOvZHbfFFw3Jaw3KqjIefRK+SCRMgfS2uwxLNzuz7N8immstVNLIeYFZ6AUYY=
-  - secure: Yn47yJidwCJefFnfS9urATW1LUHV6ErvApOyp5Qbhg4xnhZjQyibjln50/3e/sZBSp8gtCfx9QkUwLoBWxTTX4W4CmdvWK04EMc7qq0n9Xk2TdfR/+26YldI9Sx6aAWpaSYCvJ8EnJ47U5tjHo17CIHiijwyWJGYBA8xZ3B604k=
-  - secure: jtwbKzVZMluFd60R9v2mbi91kn0muHObiYvVqQZxjDN9VJ5FdM0J3W2k9d0EIBwfkcvzVPLApXlJfE9M34Y/CuXs/mBh2OxMXbUSx46AR4BE8Z9q2XFOt/de9B5O3JGs1JCiCMlbESSpyGJdLBjvb+ixOwmNtmux2NykZPw+lvA=
-  - secure: FgT/A59Qckv18O35eeiBl2F54OpISOQGOcppLQ2pFDNqiTuOlnX2acGYJcigR2TWQvjQJ9xGYB4AecLQEtCNyDYEL/7IyI/AMtGrX3o1JrxVwo9ZTEhD9sBFHuT0n/g2DPiVb/jxwJItg7yQNOocsILcROiF2oHmV1G4phRCKe4=
+  - secure: vEHjvdPATlFJQbu7paItB5CWOpC6m+svDAGweOTu1KtUTI6gTzuJc836TZcL/bk7u4NsR5s+yPCaGlVW+tl+guSAXE4hU0rjatR9y536S6y6YoDwFdrK/yUbCi1ppI9LtflFqNvQHWmBtXeDLFZ63jFCEGlQqKquvp/D3+9DIwg=
+  - secure: hHI+NkEBaZflriIZEqHiZoS7LT8tbPPU7wVH8dgI7+kIzxbCWU6uK9VWebB4OqUGcpdVd+yTROIxuOGMLFGM52QoW18pNBUs9JwalRybOFAFu7WgQ8H2bknH0ixThm0qdr0aE0DyW5o9aN+zhv/sdmrOW+zEsqjI67PUjQyph8w=

@@ -15,6 +15,8 @@
 
 @implementation AppDelegate
 
+//travis encrypt "HOCKEY_APP_ID=4d4db88c7de549b0c009bf72e6245802" --add
+//travis encrypt "HOCKEY_APP_TOKEN=a9741e63844c4bac94e175c8a49ca0a5" --add
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
